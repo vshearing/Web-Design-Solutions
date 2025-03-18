@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<header>
+<title>Tables and Lists</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- add this link for Google Material Icons -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<header>
+<body>
+
+<div class="w3-container">
+  <!-- create a basic table -->
+  <h2>Basic Table</h2>
+  <p>The <b>w3-table</b> class defines a basic table:</p>
+  <table class="w3-table">
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Points</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>Adam</td>
+      <td>Johnson</td>
+      <td>67</td>
+    </tr>
+  </table>
+</div>
+<hr>
+<!-- create a table with the border all around and centered content -->
+<div class="w3-container">
+  <h2>Bordered Table With Centered Content</h2>
+  <p>The <b>w3-border</b> class defines a bordered table, this tag has to be used after <b>w3-table</b>, <b>w3-center</b> class will center table content:</p>
+  <table class="w3-table w3-border w3-center">
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Points</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>Adam</td>
+      <td>Johnson</td>
+      <td>67</td>
+    </tr>
+  </table>
+</div>
+<hr>
+<!-- create a striped table with border around each cell -->
+<div class="w3-container">
+  <h2>Striped Table with Borders Around Cells</h2>
+ <p>The <b>w3-striped</b> class defines a striped table, <b>w3-bordered</b> class places borders around each cell:</p>
+
+  <table class="w3-table w3-striped w3-bordered">
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Points</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>Adam</td>
+      <td>Johnson</td>
+      <td>67</td>
+    </tr>
+  </table>
+</div>
+<hr>
+<!-- this table has it all -->
+<div class="w3-container">
+  <h2>Table With All: borders around, bordered cells and striped. </h2>
+  <p>The <b>w3-table-all</b> class sets all properties: borders and stripes.</p>
+  <table class="w3-table-all">
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Points</th>
+    </tr>
+    <tr>
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>Adam</td>
+      <td>Johnson</td>
+      <td>67</td>
+    </tr>
+  </table>
+</div>
+<hr>
+<!-- this table is hoverable and has a colored header -->
+<div class="w3-container">
+  <h2>Hoverable Table with Colored Header</h2>
+  <p>The <b>w3-hoverable</b> class sets allows for color change on hover.  To change color of the header or any other element, just add class <b>w3-color</b> to that element. </p>
+  <table class="w3-table w3-hoverable w3-bordered">
+    <tr class="w3-yellow">
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Points</th>
+    </tr>
+    <tr class="w3-hover-blue">
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr class="w3-hover-green">
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr class="w3-hover-sand">
+      <td>Adam</td>
+      <td>Johnson</td>
+      <td>67</td>
+    </tr>
+  </table>
+</div>
+<hr>
+<!-- List Practice -->
+<div class="w3-container">
+  <h2>List</h2>
+  <p>You can add all the styling to the list just like we did with the table.  In this list we will practice adding different elements.</p>
+  <ul class="w3-ul w3-border w3-hoverable w3-padding" style="width:50%">
+    <li class="w3-sand"><h2>Popular Sports in St. Louis</h2></li>
+    <li>Baseball</li>
+    <li>Hockey</li>
+    <li>Soccer</li>
+    <li>Golf</li>
+    <li>Basketball</li>
+    <li>Football</li>
+  </ul>
+</div>
+<hr>
+<!-- List Practice: Icons  -->
+<div class="w3-container">
+  <h2>List with Icons</h2>
+  <p>You can add all the styling to the list just like we did with the table.  In this list we will practice adding different elements.</p>
+  <ul class="w3-ul w3-border w3-hoverable w3-padding" style="width:33%">
+     <li class="w3-blue"><h2>Popular Sports in St. Louis</h2></li>
+    <li><span class="material-icons w3-large">sports_baseball</span>   Baseball</li>
+    <li><span class="material-icons w3-large">sports_hockey</span>     Hockey</li>
+    <li><span class="material-icons w3-large">sports_soccer</span>     Soccer</li>
+    <li><span class="material-icons w3-large">golf_course</span>       Golf</li>
+    <li><span class="material-icons w3-large">sports_basketball</span>   Basketball</li>
+    <li><span class="material-icons w3-large">sports_football</span>   Football</li>
+  </ul>
+</div>
+<hr>
+</body>
+</html>
