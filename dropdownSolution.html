@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+
+<title>Dropdowns and Accordions</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-purple.css">
+
+<body>
+  <div class="w3-container w3-auto">
+  <div class="w3-panel w3-theme-l2 w3-center">
+  <h2> Fun Facts About Ice Cream</h2>
+  </div>
+<!-- create a container for an accordion style button -->
+<div class="w3-container w3-auto">
+<button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-theme-l3 w3-left-align " 
+style="width: 50%">1. What is the most popular ice cream flavor in the US? &#9660;</button>
+
+<!-- div for the answer that will drop down once a button is clicked -->
+<div id="Demo1" class="w3-container w3-hide">
+  <h4>Vanilla</h4>
+ 
+</div> <!--end of answer div-->
+</div> <!-- closing <div> for an accordion style button -->
+<!-- add breaks as needed for space between buttons -->
+<br>
+<br>
+<!-- Question #2-->
+<!-- create a container for an accordion style button -->
+<div class="w3-container w3-auto">
+    <button onclick="myFunction('Demo2')" class="w3-btn w3-block w3-theme-l3 w3-left-align " 
+    style="width: 50%">2. Where was ice cream invented? &#9660;</button>
+    
+    <!-- div for the answer that will drop down once a button is clicked -->
+    <div id="Demo2" class="w3-container w3-hide">
+      <h4>China</h4>
+      <img src="images/china.jpg" style="width: 33%">
+     
+    </div> <!--end of answer div-->
+    </div> <!-- closing <div> for an accordion style button -->
+    <!-- add breaks as needed for space between buttons -->
+    <br>
+    <br>
+    <!-- Question #3-->
+<!-- create a container for an accordion style button -->
+<div class="w3-container w3-auto">
+    <button onclick="myFunction('Demo3')" class="w3-btn w3-block w3-theme-l3 w3-left-align " 
+    style="width: 50%">3. Random fact about ice cream cone &#9660;</button>
+    
+    <!-- div for the answer that will drop down once a button is clicked -->
+    <div id="Demo3" class="w3-container w3-hide">
+      <h4 class="w3-theme-l4" style="width:50%">Ice Cream Cone was an Accident</h4>
+      <p style="width: 50%">Ice cream cones were invented at the 1904 World’s Fair in St. Louis, Missouri
+         by concessions vendors as a way for people to eat ice cream easily while 
+         they enjoyed the fair. We couldn’t be more thankful.</p>
+     
+    </div> <!--end of answer div-->
+    </div> <!-- closing <div> for an accordion style button -->
+    <!-- add breaks as needed for space between buttons -->
+    <br>
+    <br>
+ <!-- Question #4  Answer as a card-->
+<!-- create a container for an accordion style button -->
+<div class="w3-container w3-auto">
+    <button onclick="myFunction('Demo4')" class="w3-btn w3-block w3-theme-l3 w3-left-align " 
+    style="width: 50%">4. How much ice-cream do we eat? &#9660;</button>
+    
+    <!-- div for the answer that will drop down once a button is clicked -->
+    <div id="Demo4" class="w3-container w3-hide">
+        <div class="w3-card-4" style="width: 33%">
+            <img src="images/iceCream.jpg" alt="Ice Cream" style="width: 100%">
+            
+                  <p>The average American eats 45.8 pints of ice cream a year</p>
+                </div>
+              </div></p>
+            </div>
+          </div>
+     
+    </div> <!--end of answer div-->
+    </div> <!-- closing <div> for an accordion style button -->
+    <!-- add breaks as needed for space between buttons -->
+    <br>
+    <br>
+
+<!-- footer with your name on it -->
+<div class="w3-container w3-auto">
+    <footer class="w3-center w3-theme-l2"> Dr. Shearing, 2025 </footer>
+</div>
+
+<!-- DO NOT CHANGE THE SCRIPT -->
+<script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+
+</body>
+
+</html>
